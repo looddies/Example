@@ -11,13 +11,58 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <span id="openModal">Открыть модальное окно</span>
+        
+        <section id="left">
+            <section id="main"></section>
+            <section id="chat">
+                <header>
+                    <input type="text">
+                    <input type="button" value="Send">
+                </header>
+            </section>
+        </section>
+        <section id="right">
+            <section id="profile"></section>
+            <section id="active-items"></section>
+            <section id="inventory">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Очень длинное название</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 2</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 3</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 4</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 5</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 6</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Предмет 7</td>
+                    </tr>
+                    
+                </table>
+            </section>
+        </section>
+        
         <div id="modalDialog">
             <div>
                 <span title="Закрыть" id="closeModal">X</span>
-                <h2>Модальное окно</h2>
-                <p>Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
-                <p>Его можно использовать в широком диапазоне, начиная от вывода сообщений и заканчивая формой регистрации.</p>
+                
             </div>
         </div>
     </body>
