@@ -11,17 +11,13 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-        <section id="page_wrap">
-            <section id="top">
-                Теле
-            </section>
-            <section id="bottom">
-                <? 
-                if (!isset($_SESSION['counter'])) $_SESSION['counter']=0;
-                echo "Вы обновили эту страницу ".$_SESSION['counter']++." раз. ";
-                echo "<br><a href=".$_SERVER['PHP_SELF'].">обновить"; 
-                ?>
-            </section>
-        </section>
+        <a href="#openModal">Открыть модальное окно</a>
+        <div id="openModal" class="modalDialog">
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <h2>Модальное окно</h2>
+            <p>Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
+            <p>Его можно использовать в широком диапазоне, начиная от вывода сообщений и заканчивая формой регистрации.</p>
+        </div>
+        </div>
     </body>
 </html>
